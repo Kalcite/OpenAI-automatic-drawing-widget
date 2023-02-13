@@ -56,3 +56,5 @@ if response.status_code == 200:
     print(f"Image URL: {image_url}")
 else:
     print("Request failed")
+print("press any key to exit")
+input()
